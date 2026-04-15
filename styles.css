@@ -63,10 +63,16 @@ nav a {
 nav a:hover {
     background-color: dimgray;
     color: white;
+    transition: color 5ms;
+
 }
 
 main {
     margin-bottom: 30px;
+}
+div {
+    opacity: 75%;
+    scale: 1.5;
 }
 
 section {
@@ -208,6 +214,8 @@ a.button-link {
 a.button-link:hover {
     background-color: gray;
     border-color: gray;
+    transition: color 5ms;
+
 }
 
 @media (max-width: 900px) {
