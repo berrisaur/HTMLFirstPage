@@ -63,17 +63,19 @@ nav a {
 nav a:hover {
     background-color: dimgray;
     color: white;
-    transition: color 1s, background-color 1s;
+    transition: color 250ms, background-color 250ms;
 
 }
 
 main {
     margin-bottom: 30px;
 }
-div {
-    opacity: 75%;
+
+div.logo{
+    opacity:80%;
     scale: 1.2;
 }
+
 
 section {
     border: 2px solid lightgray;
@@ -214,7 +216,7 @@ a.button-link {
 a.button-link:hover {
     background-color: gray;
     border-color: gray;
-    transition: background-color 1s, order-color 1s;
+    transition: background-color 250ms, order-color 250ms;
 
 }
 
