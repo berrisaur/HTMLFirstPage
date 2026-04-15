@@ -63,7 +63,7 @@ nav a {
 nav a:hover {
     background-color: dimgray;
     color: white;
-    transition: color 500ms;
+    transition: color 1s;
 
 }
 
@@ -214,7 +214,7 @@ a.button-link {
 a.button-link:hover {
     background-color: gray;
     border-color: gray;
-    transition: color 500ms;
+    transition: color 1s;
 
 }
 
