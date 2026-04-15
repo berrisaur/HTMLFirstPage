@@ -1,45 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <Title>Trading Card Games</Title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trading Card Games</title>
         <link rel="icon" type="image/webp" href="image.webp">
-
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Trading Card Games are Cool!</h1>
-        <blockquote>A cool fact about myself is that I am a professional in the TCG Sphere, competing in many regionals, and even making it to the world championships in various games!</blockquote>
-        <p>Trading card games provide a experience that not many other games can.</p>
-        <b>I personally enjoy these things when it comes to trading card games!</b>
-        <ol> 
-            <li>I love how they bring you and another face to face interacting with one another while still enjoying a common game</li>
-            <li>The cards art and gameplay of each game can feel so variably different and intersting, almost as if theres one for everyone</li>
-            <li>The actual games you play with other people will almost always be different, due to the natural variance of cards</li>
-        </ol>
-        <b>The games that I personally play are Grand Archive, Magic, and Cardfight Vanguard</b>
-        <p>While these games may be on the more niche side, they are incredibly fun!</p>
-        <img 
-            id="GrandArchive"
-            src = "GAimage.png"
-            alt="GrandArchiveLogo"
-            width = "200"
-        />
-        <img 
-            id="MTG"
-            src = "MTGimage.png"
-            alt="Magic the gathering logo"
-            width = "200"
-        />
-        <img 
-            id="CFV"
-            src = "CFVimage.png"
-            alt="Cardfight Vanguard Logo"
-            width = "200"
-        />
-        <p>I love these games to death, and infact, have even made content on them!</p>
-        <video width="640" height="360" controls>
-            <source src = "video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video> 
-        <p><a href = "index.html"> Click to head back to homepage</a></p>
+        <header>
+            <h1>Trading Card Games are Cool!</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="music.html">Music</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <blockquote>A cool fact about myself is that I am a professional in the TCG sphere, competing in many regionals, and even making it to the world championships in various games!</blockquote>
+                <p>Trading card games provide an experience that not many other games can.</p>
+                <p><strong>I personally enjoy these things when it comes to trading card games.</strong></p>
+                <ol>
+                    <li>I love how they bring you and another face to face interacting with one another while still enjoying a common game.</li>
+                    <li>The cards art and gameplay of each game can feel so variably different and interesting, almost as if there is one for everyone.</li>
+                    <li>The actual games you play with other people will almost always be different, due to the natural variance of cards.</li>
+                </ol>
+                <p><strong>The games that I personally play are Grand Archive, Magic, and Cardfight Vanguard.</strong></p>
+                <p>While these games may be on the more niche side, they are incredibly fun!</p>
+            </section>
+            <section>
+                <div class="grid-gallery">
+                    <figure>
+                        <img class="logo" id="GrandArchive" src="GAimage.png" alt="Grand Archive logo">
+                        <figcaption>Grand Archive</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="logo" id="MTG" src="MTGimage.png" alt="Magic the Gathering logo">
+                        <figcaption>Magic: The Gathering</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="logo" id="CFV" src="CFVimage.png" alt="Cardfight Vanguard logo">
+                        <figcaption>Cardfight Vanguard</figcaption>
+                    </figure>
+                </div>
+                <p>I love these games to death, and in fact, have even made content on them!</p>
+                <figure>
+                    <video controls>
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <figcaption class="caption-small">my video scaled down so that it can fit in the project</figcaption>
+                </figure>
+                <p><a class="button-link" href="index.html">Click to head back to homepage</a></p>
+            </section>
+        </main>
     </body>
 </html>

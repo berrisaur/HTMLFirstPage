@@ -1,33 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <!-- this is the name of the webpage, what shows up on the tab-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Homework 1</title>
         <link rel="icon" type="image/webp" href="image.webp">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <!-- this is everything that shows up-->
-        <h1>Hello! My name is Louis Nguyen</h1>
-        <p>I am a Senior in the CS major, who joined this class trying to learn a little more about front end development!</p>
-        <b>Outside the classroom, I have various things I enjoy!</b>
-        <blockquote>Click on the hyperlinks below if youre interested in any of the following topics!</blockquote>
-        <b>My current hobbies</b>
-        <ul> 
-            <li><a href="tcg.html">Trading Card Games</a></li>
-            <li><a href="music.html">Music</a></li>
-        </ul>
-        <sup>would put more in the list but like im boring</sup>
-        <figure>
-            <img 
-            id="MangaPanel"
-            src = "image.webp"
-            alt="Manga panel of a girl smoking"
-            width = "200"
-            />
-            <sub>using this to fill in the 30 unique lol</sub>
-            <figcaption>Me on a daily basis</figcaption>
-        </figure>
-        <a href = "https://www.google.com" target="_blank"
-        >This is a google hyperlink!</a>
-        <p>
+        <header>
+            <h1>Welcome to Louis Nguyen's Homepage</h1>
+            <nav>
+                <a href="tcg.html">Trading Card Games</a>
+                <a href="music.html">Music</a>
+            </nav>
+        </header>
+        <main>
+            <section class="hero-card">
+                <div>
+                    <h2>Hello! My name is Louis Nguyen</h2>
+                    <p>I am a Senior in the CS major, who joined this class trying to learn a little more about front end development.</p>
+                    <p><strong>Outside the classroom, I have various things I enjoy.</strong></p>
+                    <blockquote>Click on the hyperlinks below if you're interested in any of the following topics!</blockquote>
+                    <p><strong>My current hobbies</strong></p>
+                    <ul>
+                        <li><a class="button-link" href="tcg.html">Trading Card Games</a></li>
+                        <li><a class="button-link" href="music.html">Music</a></li>
+                    </ul>
+                    <p class="caption-small">Would put more in the list but like I'm boring.</p>
+                </div>
+                <figure>
+                    <img class="logo" id="MangaPanel" src="image.webp" alt="Manga panel of a girl smoking">
+                    <figcaption>Me on a daily basis</figcaption>
+                </figure>
+            </section>
+            <section>
+                <p><a class="button-link" href="https://www.google.com" target="_blank" rel="noopener noreferrer">Visit Google</a></p>
+            </section>
+        </main>
+    </body>
 </html>
