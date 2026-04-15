@@ -63,7 +63,7 @@ nav a {
 nav a:hover {
     background-color: dimgray;
     color: white;
-    transition: color 1s;
+    transition: color 1s, background-color 1s;
 
 }
 
@@ -72,7 +72,7 @@ main {
 }
 div {
     opacity: 75%;
-    scale: 1.5;
+    scale: 1.2;
 }
 
 section {
@@ -214,7 +214,7 @@ a.button-link {
 a.button-link:hover {
     background-color: gray;
     border-color: gray;
-    transition: color 1s;
+    transition: background-color 1s, order-color 1s;
 
 }
 
