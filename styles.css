@@ -19,12 +19,11 @@ body {
     background-color: white;
 }
 
-/* Header styling - Simple header with border */
 header {
     border-bottom: 3px solid black;
     padding-bottom: 20px;
     margin-bottom: 30px;
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -34,7 +33,6 @@ header {
 
 }
 
-/* Header title */
 header h1 {
     margin:10px;
     font-size: 2rem;
@@ -43,7 +41,6 @@ header h1 {
     text-shadow: 2px 2px 5px gray;
 }
 
-/* Navigation styling - Simple horizontal links */
 nav {
     margin:10px;
     display: flex;
@@ -52,7 +49,6 @@ nav {
 
 }
 
-/* Navigation links */
 nav a {
     color: dimgray;
     text-decoration: none;
@@ -64,18 +60,15 @@ nav a {
 
 }
 
-/* Navigation link hover */
 nav a:hover {
     background-color: dimgray;
     color: white;
 }
 
-/* Main content container */
 main {
     margin-bottom: 30px;
 }
 
-/* Section styling - Simple boxes with borders */
 section {
     border: 2px solid lightgray;
     padding: 20px;
@@ -87,7 +80,6 @@ section {
 
 }
 
-/* Section headings */
 section h2, section h3 {
     margin-top: 0;
     color: dimgray;
@@ -95,32 +87,29 @@ section h2, section h3 {
     padding-bottom: 10px;
 }
 
-/* Paragraph and text styling */
 p, li, figcaption, caption {
     font-size: 20px;
     font-weight:bold;
     color:black;
     margin: 10px 0;
 }
+
 p.caption-small {
     color: darkgray;
     font-style: italic;
     text-decoration:line-through;
 }
 
-/* Lists */
 ul, ol {
     padding-left: 30px;
     margin: 10px 0;
     list-style-type: disc;
 }
 
-/* List items */
 li {
     margin-bottom: 8px;
 }
 
-/* Blockquote styling */
 blockquote {
     margin: 15px 0;
     padding: 10px 15px;
@@ -129,13 +118,11 @@ blockquote {
     font-style: italic;
 }
 
-/* Figure layout for images */
 figure {
     text-align: center;
     margin: 20px 0;
 }
 
-/* Images and videos */
 img, video, iframe {
     max-width: 100%;
     height: auto;
@@ -143,13 +130,11 @@ img, video, iframe {
     margin: 10px 0;
 }
 
-/* Logo images */
 img.logo {
     max-width: 200px;
     height: auto;
 }
 
-/* Grid gallery for logos */
 .grid-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -160,12 +145,10 @@ img.logo {
     box-shadow: 0 8px 18px black;
 }
 
-/* Gallery items centered */
 .grid-gallery figure {
     text-align: center;
 }
 
-/* Table styling */
 .table-card {
     width: 100%;
     border-collapse: collapse;
@@ -175,14 +158,12 @@ img.logo {
     background-color: white;
 }
 
-/* Table headers and cells */
 .table-card th, .table-card td {
     padding: 12px;
     border: 1px solid gainsboro;
     text-align: left;
 }
 
-/* Table header styling */
 .table-card th {
     background-color: dimgray;
     color: white;
@@ -190,7 +171,6 @@ img.logo {
     font-weight: bold;
 }
 
-/* Table caption */
 .table-card caption {
     caption-side: top;
     margin-bottom: 10px;
@@ -199,7 +179,6 @@ img.logo {
     white-space: nowrap;
 }
 
-/* Spotify embed */
 .spotify-embed {
     width: 100%;
     max-width: 400px;
@@ -207,14 +186,12 @@ img.logo {
     display: block;
 }
 
-/* Small caption text */
 .caption-small {
     font-size: 0.9rem;
     color: darkgray;
     font-style: italic;
 }
 
-/* Button links */
 a.button-link {
     display: inline-block;
     padding: 10px 15px;
@@ -228,13 +205,11 @@ a.button-link {
 
 }
 
-/* Button hover state */
 a.button-link:hover {
     background-color: gray;
     border-color: gray;
 }
 
-/* Responsive design for tablets */
 @media (max-width: 900px) {
     header {
         flex-direction: column;
@@ -250,7 +225,6 @@ a.button-link:hover {
     }
 }
 
-/* Responsive design for mobile */
 @media (max-width: 640px) {
     header h1 {
         font-size: 1.5rem;
