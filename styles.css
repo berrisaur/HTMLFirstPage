@@ -216,7 +216,7 @@ a.button-link {
 a.button-link:hover {
     background-color: gray;
     border-color: gray;
-    transition: background-color 250ms, order-color 250ms;
+    transition: background-color 250ms, border-color 250ms;
 
 }
 
