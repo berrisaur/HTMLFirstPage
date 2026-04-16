@@ -63,7 +63,7 @@ nav a {
 nav a:hover {
     background-color: dimgray;
     color: white;
-    transition: color 250ms, background-color 250ms;
+    transition: color 500ms, background-color 500ms;
 
 }
 
@@ -216,8 +216,7 @@ a.button-link {
 a.button-link:hover {
     background-color: gray;
     border-color: gray;
-    transition: background-color 250ms, border-color 250ms;
-
+    transition: background-color 500ms, border-color 500ms;
 }
 
 @media (max-width: 900px) {
